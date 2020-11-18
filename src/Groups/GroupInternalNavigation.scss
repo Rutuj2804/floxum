@@ -1,0 +1,23 @@
+.groupInternalNavigation{
+    height: 100%;
+    width: 100%;
+    & .group__links{
+        display: flex;
+        justify-content: space-between;
+        & a{
+            color: #505050;
+            text-transform: capitalize;
+            text-decoration: none;
+            font-family: sans-serif;
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+        & a:hover{
+            background-color: rgba(0,0,0,0.2);
+        }
+    }
+}
+.activeGroupLink{
+    background-color: rgba(0,0,0,0.2);
+    color: #505050;
+}
